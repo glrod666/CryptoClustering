@@ -24,5 +24,45 @@ Normalize the Data**:
     - Initialize the K-means model with the best value for k.
     - Fit the model and predict clusters.
     - Added the predicted clusters to the original DataFrame.
+  
+ 2. **Visualize**:
+    - Create a scatter plot using `hvPlot`
+      ![Sample Image](hvplot.png)
+  
+
+### PCA Data
+
+1. **Optimize Clusters**:
+    - Perform PCA to reduce to three principal components.
+    - Find the best k value using the elbow method on the PCA data.
+    - Cluster the PCA data and visual
+  
+      ## Visualization
+
+1. **Scatter Plot**:
+    - Use `hvPlot` to create interactive scatter plots for both original scaled data and ## Visualization (continued)
+
+### Elbow Method on PCA Data
+
+1. **Elbow Method**:
+    - Use the elbow method on the PCA data to find the best value for k:
+  
+    - ### Clustering with PCA Data
+
+1. **Cluster and Visualize**:
+    - Initialize the K-means model with the best value for k.
+    - Fit the model using the PCA data and predict clusters.
+    - Add the predicted clusters to the PCA DataFrame.
+
+**Scatter Plot**:
+    - Create a scatter plot using `hvPlot` for the PCA data:
+     ![Sample Image](scatterplot2.png)
+
+
+     ## Acknowledgments
+
+- **Xpert Learning Assistant**: Special thanks to Xpert Learning Assistant for the assistance provided during the project.
+- **Course Examples**: References to examples and concepts learned during the class.
+
 
 
